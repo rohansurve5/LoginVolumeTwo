@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="38dp"
+    android:layout_marginLeft="38dp"
+    android:layout_marginEnd="37dp"
+    android:layout_marginRight="37dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/karla_bold"
+                android:lineSpacingExtra="1sp"
+                android:text="@string/login"
+                android:textColor="#1a1a1a"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/karla_regular"
+                android:gravity="end"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/signup"
+                android:textColor="#1a1a1a"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_one" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:fontFamily="@font/karla_regular"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/hello_there"
+            android:textColor="#1a1a1a"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/karla_bold"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/john_doe"
+            android:textColor="#1a1a1a"
+            android:textSize="24sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/karla_regular"
+                android:hint="enter your name"
+                android:inputType="text" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/karla_regular"
+                android:hint="enter your password"
+                android:inputType="textPassword" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/login" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/karla_regular"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="0sp"
+            android:text="Forgot Password ?"
+            android:textColor="#0052FF"
+            android:textSize="14sp" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/karla_bold"
+            android:text="SWITCH ACCOUNT"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

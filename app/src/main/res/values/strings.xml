@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LoginVolumeTwo</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="john_doe">John Doe</string>
+    <string name="hello_there">Hello there</string>
+</resources>
